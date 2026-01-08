@@ -1,6 +1,6 @@
 let texto = 'Consoantes e Mais';
 
-let vogais = function () {
+let consoantes = function () {
     let contagem = 0;
     let letraVogais = 'aeiouAEIOU';
     let espacoVazio = ' ';
@@ -14,4 +14,4 @@ let vogais = function () {
     return contagem;
 }
 
-console.log('Quantidade de consoantes: ' + vogais());
+console.log('Quantidade de consoantes: ' + consoantes());
